@@ -1,0 +1,12 @@
+node_modules/
+app/node_modules/
+app/dist/
+.tmp/
+.env
+credentials.json
+token.json
+*.psd
+*.xlsx
+*.pdf
+.DS_Store
+Thumbs.db
