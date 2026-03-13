@@ -58,15 +58,14 @@ const Hero = () => {
                             fontWeight: 600, 
                             color: '#1a1a1a', 
                             marginBottom: '28px',
-                            maxWidth: '500px',
-                            textAlign: 'center'
+                            maxWidth: '500px'
                         }}
                     >
                         Desarrollo estratégico <br className="hide-desktop" /> para proyectos inmobiliarios.
                     </motion.h2>
 
                     {/* Description / Value Proposition */}
-                    <motion.p className="hero-description" variants={item} style={{ textAlign: 'center' }}>
+                    <motion.p className="hero-description" variants={item}>
                         Arquitecto con +8 años de experiencia <br className="hide-desktop" /> diseñando espacios que combinan <br className="hide-desktop" /> visión, funcionalidad y valor.
                     </motion.p>
                 </motion.div>
