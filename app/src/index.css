@@ -1049,21 +1049,25 @@ button {
         --container-padding: 0 20px;
     }
 
+    .hide-mobile {
+        display: none !important;
+    }
+
     /* Dock mobile */
     .dock {
         bottom: 24px;
-        left: 10px;
-        right: 10px;
+        left: 8px;
+        right: 8px;
         transform: none;
         justify-content: space-between;
         border-radius: var(--radius-full);
-        padding: 12px 14px;
+        padding: 10px 10px;
     }
 
     .dock-links {
         display: flex;
         flex-direction: row;
-        gap: 6px;
+        gap: 4px;
         /* Restablecer visibilidad para que aparezca normal como en PC */
         position: static;
         background: transparent;
@@ -1079,13 +1083,15 @@ button {
     }
 
     .dock-logo {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        margin-right: 2px;
     }
 
     .dock-links a {
-        font-size: 0.75rem;
+        font-size: 0.65rem;
         font-weight: 500;
         letter-spacing: -0.2px;
+        padding: 4px 6px;
     }
 
     .dock-divider {
@@ -1110,14 +1116,17 @@ button {
         background: linear-gradient(
             to bottom,
             rgba(255, 255, 255, 0) 0%,
-            rgba(255, 255, 255, 0.4) 30%,
-            rgba(255, 255, 255, 0.95) 80%,
+            rgba(255, 255, 255, 0) 50%,
+            rgba(255, 255, 255, 0.6) 75%,
+            rgba(255, 255, 255, 1) 90%,
             rgba(255, 255, 255, 1) 100%
         );
     }
 
     .hero-background img {
-        object-position: 65% 15%;
+        object-position: right 15%;
+        width: calc(100% + 250px);
+        transform: translateX(-250px);
     }
 
     .hero-content {
@@ -1126,7 +1135,7 @@ button {
     }
 
     .hero h1 {
-        font-size: 3.5rem;
+        font-size: clamp(2.2rem, 8vw, 3.5rem);
     }
 
     .hero-description {

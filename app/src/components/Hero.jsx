@@ -46,8 +46,8 @@ const Hero = () => {
                 >
                     {/* Title */}
                     <motion.h1 variants={item}>
-                        Matías<br />
-                        <span className="serif-italic" style={{ color: '#0d0d0d' }}>Ferreira</span>
+                        Matías<br className="hide-mobile" />
+                        <span className="serif-italic" style={{ color: '#0d0d0d' }}> Ferreira</span>
                     </motion.h1>
 
                     {/* Subtitle */}
