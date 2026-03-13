@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:69ff6a0237959619af66d7d411889d1ce03fc35657e6b14624da5fd233709ef5
-size 455
+# Imágenes de Proyectos
+
+Colocá aquí las imágenes de los proyectos del portafolio.
+
+## Nombres esperados:
+- `proyecto-1.jpg` → Brand Soul Discovery
+- `proyecto-2.jpg` → Cotizador Mastermind
+- `proyecto-3.jpg` → Dynamic Social Video
+- `proyecto-4.jpg` → Voice Tuner App
+- `proyecto-5.jpg` → Brand DNA Analyzer
+- `proyecto-6.jpg` → Sistema de Facturación
+
+> Formato recomendado: `.jpg` o `.png`, resolución mínima 800x600px.
