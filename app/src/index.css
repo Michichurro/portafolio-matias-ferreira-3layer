@@ -156,10 +156,10 @@ button {
     align-items: center;
     gap: 8px;
     padding: 10px 12px;
-    background: rgba(30, 30, 30, 0.85);
+    background: rgba(30, 30, 30, 0.85); /* Dark background */
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
-    border: 1px solid var(--border-dark);
+    border: 1px solid rgba(255,255,255,0.05); /* Subtle dark border */
     border-radius: var(--radius-full);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
@@ -1055,13 +1055,14 @@ button {
 
     /* Dock mobile */
     .dock {
-        bottom: 24px;
-        left: 8px;
-        right: 8px;
+        bottom: 20px;
+        left: 3%;
+        right: 3%;
         transform: none;
         justify-content: space-between;
         border-radius: var(--radius-full);
-        padding: 10px 10px;
+        padding: 8px 8px;
+        background: #1a1a1a;
     }
 
     .dock-links {
@@ -1083,8 +1084,14 @@ button {
     }
 
     .dock-logo {
-        font-size: 1.1rem;
-        margin-right: 2px;
+        font-size: 0.95rem;
+        margin-right: -4px;
+        padding-left: 8px;
+        color: white;
+    }
+
+    .dock-logo span {
+        color: var(--accent);
     }
 
     .dock-links a {
@@ -1092,6 +1099,7 @@ button {
         font-weight: 500;
         letter-spacing: -0.2px;
         padding: 4px 6px;
+        color: rgba(255, 255, 255, 0.7);
     }
 
     .dock-divider {
@@ -1100,7 +1108,14 @@ button {
     }
 
     .dock-cta {
-        display: none;
+        display: inline-flex;
+        font-size: 0.65rem;
+        font-weight: 500;
+        padding: 8px 14px;
+        background: var(--accent); /* Lime green */
+        color: #1a1a1a;
+        border-radius: var(--radius-full);
+        margin-left: -2px;
     }
 
     .dock-menu-toggle {
@@ -1117,29 +1132,37 @@ button {
             to bottom,
             rgba(255, 255, 255, 0) 0%,
             rgba(255, 255, 255, 0) 50%,
-            rgba(255, 255, 255, 0.6) 75%,
-            rgba(255, 255, 255, 1) 90%,
+            rgba(255, 255, 255, 0.8) 65%,
+            rgba(255, 255, 255, 1) 75%,
             rgba(255, 255, 255, 1) 100%
         );
     }
 
     .hero-background img {
-        object-position: right 15%;
-        width: calc(100% + 250px);
-        transform: translateX(-250px);
+        object-position: center 5%;
+        width: 130%;
+        transform: translateX(-15%); /* Centering the wider image */
     }
 
     .hero-content {
         justify-content: flex-end;
-        padding-bottom: 120px;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 90px;
     }
 
     .hero h1 {
-        font-size: clamp(2.2rem, 8vw, 3.5rem);
+        font-size: clamp(2.6rem, 11vw, 3.8rem);
+        margin-bottom: 12px;
+        line-height: 1;
     }
 
     .hero-description {
-        font-size: 1rem;
+        font-size: 0.85rem;
+        margin: 0 auto 40px auto;
+        color: #1a1a1a;
+        font-weight: 500;
+        max-width: 90%;
     }
 
     /* Projects mobile */

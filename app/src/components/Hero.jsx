@@ -39,7 +39,7 @@ const Hero = () => {
 
             <div className="container" style={{ position: 'relative', height: '100%', zIndex: 2 }}>
                 <motion.div
-                    className="hero-content left-align"
+                    className="hero-content"
                     variants={container}
                     initial="hidden"
                     animate="visible"
@@ -54,19 +54,19 @@ const Hero = () => {
                     <motion.h2 
                         variants={item} 
                         style={{ 
-                            fontSize: 'clamp(1.2rem, 3vw, 1.8rem)', 
-                            fontWeight: 500, 
+                            fontSize: 'clamp(1.1rem, 4vw, 1.8rem)', 
+                            fontWeight: 600, 
                             color: '#1a1a1a', 
-                            marginBottom: '24px',
+                            marginBottom: '28px',
                             maxWidth: '500px'
                         }}
                     >
-                        Desarrollo estratégico para proyectos inmobiliarios.
+                        Desarrollo estratégico <br className="hide-desktop" /> para proyectos inmobiliarios.
                     </motion.h2>
 
                     {/* Description / Value Proposition */}
-                    <motion.p className="hero-description" variants={item} style={{ margin: '0 0 40px 0', maxWidth: '400px', color: '#4a4a4a', fontWeight: '500' }}>
-                        Arquitecto con 8 años de experiencia diseñando espacios que combinan visión, funcionalidad y valor.
+                    <motion.p className="hero-description" variants={item}>
+                        Arquitecto con +8 años de experiencia <br className="hide-desktop" /> diseñando espacios que combinan <br className="hide-desktop" /> visión, funcionalidad y valor.
                     </motion.p>
                 </motion.div>
             </div>
