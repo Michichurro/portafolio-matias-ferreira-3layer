@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
+    "vercel-build": "bash vercel-build.sh",
     "preview": "vite preview"
   },
   "dependencies": {
