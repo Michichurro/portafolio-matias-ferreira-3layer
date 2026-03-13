@@ -1139,10 +1139,12 @@ button {
     }
 
     .hero-background img {
-        object-position: right top;
-        width: calc(100% + 600px);
-        max-width: none;
-        transform: translateX(-350px);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 75% 5%;
+        transform: none;
+        max-width: 100%;
     }
 
     .hero-content {
