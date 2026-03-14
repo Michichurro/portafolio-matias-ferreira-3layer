@@ -94,7 +94,7 @@ const About = () => {
                                     <div className="resume-item">
                                         <div className="resume-item-year">2018</div>
                                         <div className="resume-item-content">
-                                            <h4>Concurso FA</h4>
+                                            <h4>Concurso FADA</h4>
                                             <p><strong>Proyectista</strong><br/>
                                             Colaborador del equipo de trabajo con los arquitectos Nicolás Morales y Pablo Barbadillo</p>
                                         </div>
