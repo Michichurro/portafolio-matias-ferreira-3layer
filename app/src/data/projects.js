@@ -153,7 +153,7 @@ export const projects = [
     category: "Vivienda Social",
     description: "Desarrollo de viviendas en Areguá, Capiatá y Montelindo. Conjuntos residenciales con diseño accesible y funcional.",
     technologies: ["Arquitectura Social", "Urbanismo", "Renderizado 3D"],
-    image: "/images/projects/LINEA MORADA/MONTELINDO/MONTELINDO-1.png",
+    image: "/images/projects/LINEA MORADA/CAPIATA/C_CONJUNTO.png",
     gallery: [
       "/images/projects/LINEA MORADA/MONTELINDO/MONTELINDO-1.png",
       "/images/projects/LINEA MORADA/MONTELINDO/MONTELINDO-2.png",
@@ -185,7 +185,7 @@ export const projects = [
     category: "Edificio Residencial",
     description: "Edificio San Clemente en Santa Teresa con monoambientes y 1 dormitorio. Amplio programa de amenities y penthouse.",
     technologies: ["Arquitectura", "Renderizado 3D", "Interiorismo"],
-    image: "/images/projects/LINEA SAN CLEMENTE/SANTA TERESA/01-SC-ST---MONO-1.png",
+    image: "/images/projects/LINEA SAN CLEMENTE/SANTA TERESA/RENDER PRUEBA OPCION 2.png",
     gallery: [
       "/images/projects/LINEA SAN CLEMENTE/SANTA TERESA/01-SC-ST---MONO-1.png",
       "/images/projects/LINEA SAN CLEMENTE/SANTA TERESA/02-SC-ST---1-DORM-2.png",
