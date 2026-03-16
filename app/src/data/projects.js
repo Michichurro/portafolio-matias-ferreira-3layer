@@ -1,20 +1,5 @@
 export const projects = [
   {
-    id: 1,
-    title: "BIAU 2019 — TecModule",
-    category: "Concurso Internacional",
-    description: "Proyecto presentado en la Bienal Iberoamericana de Arquitectura y Urbanismo 2019. Módulo tecnológico con diseño innovador y sostenible.",
-    technologies: ["Arquitectura", "Diseño Modular", "Urbanismo"],
-    image: "/images/projects/BIAU 2019 - TECMODULE/DAY_2.jpg",
-    gallery: [
-      "/images/projects/BIAU 2019 - TECMODULE/DAY_2.jpg",
-      "/images/projects/BIAU 2019 - TECMODULE/DAY_3.jpg",
-      "/images/projects/BIAU 2019 - TECMODULE/NIGHT3_1.jpg",
-      "/images/projects/BIAU 2019 - TECMODULE/NIGHT3_4.jpg",
-    ],
-    link: "#"
-  },
-  {
     id: 2,
     title: "Edificio Bosque Verticale",
     category: "Edificio Residencial",
@@ -221,6 +206,21 @@ export const projects = [
       "/images/projects/LINEA SANTA MARINA/SUR/1-DORMITORIO.png",
       "/images/projects/LINEA SANTA MARINA/SUR/MONOAMBIENTE-FRONTAL.png",
       "/images/projects/LINEA SANTA MARINA/SUR/39.png",
+    ],
+    link: "#"
+  },
+  {
+    id: 1,
+    title: "BIAU 2019 — TecModule",
+    category: "Concurso Internacional",
+    description: "Proyecto presentado en la Bienal Iberoamericana de Arquitectura y Urbanismo 2019. Módulo tecnológico con diseño innovador y sostenible.",
+    technologies: ["Arquitectura", "Diseño Modular", "Urbanismo"],
+    image: "/images/projects/BIAU 2019 - TECMODULE/DAY_2.jpg",
+    gallery: [
+      "/images/projects/BIAU 2019 - TECMODULE/DAY_2.jpg",
+      "/images/projects/BIAU 2019 - TECMODULE/DAY_3.jpg",
+      "/images/projects/BIAU 2019 - TECMODULE/NIGHT3_1.jpg",
+      "/images/projects/BIAU 2019 - TECMODULE/NIGHT3_4.jpg",
     ],
     link: "#"
   },
