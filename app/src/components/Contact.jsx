@@ -63,8 +63,8 @@ const Contact = () => {
                         </a>
 
                         <span className="footer-label" style={{ marginTop: '24px' }}>Email</span>
-                        <a href="mailto:matias@email.com" className="footer-value">
-                            matias@email.com
+                        <a href="mailto:maje.ferreiraq@gmail.com" className="footer-value">
+                            maje.ferreiraq@gmail.com
                         </a>
                     </div>
 
