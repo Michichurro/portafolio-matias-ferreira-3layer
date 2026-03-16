@@ -230,8 +230,12 @@ export const projects = [
     category: "Urbanismo",
     description: "Plan maestro de desarrollo urbano para Itapytá Punta. Planificación integral del territorio con visión sustentable.",
     technologies: ["Urbanismo", "Planificación Territorial", "Masterplan"],
-    image: "/images/projects/BIAU 2019 - TECMODULE/DAY_3.jpg",
-    gallery: [],
+    image: "/images/projects/PLAN URBANO ITAPYTA PUNTA/PARA-INSTAGRAM_Mesa-de-trabajo-1.png",
+    gallery: [
+      "/images/projects/PLAN URBANO ITAPYTA PUNTA/PARA-INSTAGRAM_Mesa-de-trabajo-1.png",
+      "/images/projects/PLAN URBANO ITAPYTA PUNTA/PARA-INSTAGRAM-02.png",
+      "/images/projects/PLAN URBANO ITAPYTA PUNTA/PARA-INSTAGRAM-03.png",
+    ],
     link: "#"
   },
 ];
